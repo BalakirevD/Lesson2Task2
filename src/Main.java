@@ -9,7 +9,7 @@ public class Main {
         int startAmount = 500; //начальная сумма
         int addAmount = 1200; //сумма вложения
 
-        if (addAmount >= limit) {
+        if (addAmount > limit) {
             bonus = addAmount / 100;
         }
 
